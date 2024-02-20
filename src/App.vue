@@ -1,16 +1,18 @@
 <template>
-
-  <HelloWorld msg="Very first commit"/>
+ <LandingPage />
+  <h1>Hello</h1>
+<!-- <HelloWorld msg="Very first commit"/>  --> 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import './assets/styles/tailwind.css'
+import LandingPage from './components/LandingPage.vue';
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LandingPage
   }
 }
 </script>

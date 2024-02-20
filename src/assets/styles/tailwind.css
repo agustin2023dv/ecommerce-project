@@ -1,3 +1,38 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Barlow:wght@100;400;600&display=swap');
+
+/* Apply the font family to the html element */
+html {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+    font-size: 1.2em;
+  }
+  
+  h2 {
+    font-size: 1.15em; 
+  }
+  
+  h3 {
+    font-size: 1.1em; 
+  }
+
+#main-landing, header{
+    background-color: #e4ddd4;
+}
+
+@media (min-width: 768px) {
+    a {
+      font-size: 1.6em;  
+    }
+  }
+  
+ /* For smaller screens  than 768px (e.g., phones) */
+  @media (max-width: 767px) {
+    a {
+      font-size: 1.1em; 
+    }
+}
